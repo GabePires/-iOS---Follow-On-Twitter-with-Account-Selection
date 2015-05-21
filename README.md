@@ -1,12 +1,14 @@
 # Follow On Twitter + Account Selection
 
 Using the Social Framework and Accounts Framework, create a 'Follow me on Twitter' button in your iOS app.<br />
+
 Problem: You want a user to be able to follow you on Twitter without ever leaving the app. You also<br />
-want to control what happens if they choose to follow or not.<br />
+want to control what happens if they choose to follow or not. This class solves that problem.<br />
+
+FollowOnTwitter let's your user follow you on Twitter without leaving the app, and handles multiple users via an ActionSheet. It also controls the results of successfully following you or not.<br />
 
 This class displays use of: Social Framework, Accounts Frameworks, UIActionSheet, grand central dispatch.<br />
 
-FollowOnTwitter let's your user follow you on Twitter without leaving the app, and handles multiple users via an ActionSheet.<br />
 
 #Usage
 1.Link Frameworks: Social, Accounts, and UIKit in Build Phases<br />
